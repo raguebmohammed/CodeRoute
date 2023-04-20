@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    background-color: #fff3e0;
+    background-image: url('assets/bg.jpg'), linear-gradient(to bottom, #fef9e7 0%, #fff3e0 100%);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+  }
+
+      /* Center the table */
+div {
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* Add spacing between table cells */
+td {
+  padding: 10px;
+}
+
+/* Style the images */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to images */
+img:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Set a maximum width for the table */
+table {
+  max-width: 1000px;
+  margin: 0 auto;
+}
